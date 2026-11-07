@@ -1,0 +1,2 @@
+SafeAreaCompatability=Enum.SafeAreaCompatibility.FullscreenExtension
+Enum.ScreenInsets.CoreUISafeInsets

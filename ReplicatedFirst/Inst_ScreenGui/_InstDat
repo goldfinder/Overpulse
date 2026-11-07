@@ -1,2 +1,3 @@
 SafeAreaCompatability=Enum.SafeAreaCompatibility.FullscreenExtension
 ScreenInsets=Enum.ScreenInsets.CoreUISafeInsets
+Name=DebugUI

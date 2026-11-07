@@ -1,0 +1,8 @@
+script.IsReady.OnInvoke = function() return true end
+if game:GetService("ServerScriptService"):GetAttribute("ProcessSignals") ~= true then
+	game:GetService("ServerScriptService"):GetAttributeChangedSignal("ProcessSignals"):Wait()
+end
+
+script.Value.Value.OnServerInvoke = function(plr)
+	return {CanChat=game:GetService("TextChatService"):CanUserChatAsync(plr.UserId)}
+end

@@ -1,0 +1,4 @@
+NAME:BetterServices
+TYPE:Model
+FETCH:https://raw.githubusercontent.com/Kodyris-Blackforge/Kodyris-Loader/refs/heads/main/ServerScriptService/BetterPlayerService.Luau
+FETCH:https://raw.githubusercontent.com/Kodyris-Blackforge/Kodyris-Loader/refs/heads/main/ServerScriptService/ServerVerifier.Luau
